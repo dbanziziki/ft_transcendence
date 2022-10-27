@@ -1,8 +1,3 @@
-## TODO's before push
-- clear debug logs
-- remove Mock auth module
-    - backend
-    - frontend
 
 ## How to make stuff happen
 
@@ -27,7 +22,6 @@ Either way, you need:
 App should be available at `httsp://localhost:3000` (mind the S in httpS !), except when using option 2: `http://localhost:8000`
 
 
-Last know working .env:
 ```
 APP_HOST=localhost
 FRONTEND_URL=http://localhost:8000
@@ -71,16 +65,6 @@ App should be available at `https://127.0.01:3000` (httpS !)
 
 
 App should be available at `https://127.0.01:3000` (httpS !)
-
-
------------------------
-## TODO's before push
-- remove mock auth module
-- typeORM config: no 'synchronize' in production!
-- remove CORS enable 
-
-
-
 
 ### How to access the database with the psql client :
 `docker exec -it db psql -U postgres`
